@@ -18,6 +18,7 @@ import Storage from "../utils/storage";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
+
 /**
  *
  * It's the main container and contains <Movies/>.
